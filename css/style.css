@@ -26,8 +26,9 @@ html{
 
 /*Styling for small screen sizes*/
 @media screen and (max-width:768px) {
-  .softdev-title {
+  .softdev-title b{
   	font-size: 25px;
+  	margin-top: 2px;
   }
   .col-sm img {
     display: block;
