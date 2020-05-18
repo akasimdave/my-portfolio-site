@@ -5,6 +5,47 @@
 body{
 	background-color: #eee;
 }
+
 html{
 scroll-behavior: smooth;
+}
+
+/*Styling for large screen sizes*/
+@media screen and (max-width:1200px) {  
+  .col-lg img {
+    /*display: none;*/
+  }
+}
+
+/*Styling for medium screen sizes*/
+@media screen and (max-width:992px) {  
+  .col-md img {
+    display: none;
+  }
+}
+
+/*Styling for small screen sizes*/
+@media screen and (max-width:768px) {  
+  .col-sm img {
+    display: block;
+    margin: 0 0 55px 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 55px;
+    width: 100%;
+    height: 100%;
+  }
+  .rounded-circle{
+  	display: none;
+  }
+  .text-justify{
+  	margin-top: 0px !important;
+  }
+}
+
+/*Styling for extra-small screen sizes*/
+@media screen and (max-width:768px) {  
+  .col-xs img {
+    /*display: none;*/
+  }
 }
