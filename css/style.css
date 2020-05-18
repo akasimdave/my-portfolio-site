@@ -7,7 +7,11 @@ body{
 }
 
 html{
+<<<<<<< HEAD
 scroll-behavior: smooth;
+=======
+	scroll-behavior: smooth;
+>>>>>>> a334248b50fcbc17a2d98eb4950a5c50bc2f2d39
 }
 
 /*Styling for large screen sizes*/
@@ -36,10 +40,17 @@ scroll-behavior: smooth;
     height: 100%;
   }
   .rounded-circle{
+<<<<<<< HEAD
   	display: block;
   }
   .text-justify{
   	/*margin-top: 0px !important;*/
+=======
+  	display: none;
+  }
+  .text-justify{
+  	margin-top: 0px !important;
+>>>>>>> a334248b50fcbc17a2d98eb4950a5c50bc2f2d39
   }
 }
 
@@ -48,4 +59,8 @@ scroll-behavior: smooth;
   .col-xs img {
     /*display: none;*/
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a334248b50fcbc17a2d98eb4950a5c50bc2f2d39
