@@ -36,10 +36,10 @@ scroll-behavior: smooth;
     height: 100%;
   }
   .rounded-circle{
-  	display: none;
+  	display: block;
   }
   .text-justify{
-  	margin-top: 0px !important;
+  	/*margin-top: 0px !important;*/
   }
 }
 
