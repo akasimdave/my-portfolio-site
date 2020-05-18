@@ -25,7 +25,10 @@ html{
 }
 
 /*Styling for small screen sizes*/
-@media screen and (max-width:768px) {  
+@media screen and (max-width:768px) {
+  .softdev-title {
+  	font-size: 25px;
+  }
   .col-sm img {
     display: block;
     margin: 0 0 55px 0;
@@ -35,7 +38,6 @@ html{
     width: 100%;
     height: 100%;
   }
-
   .rounded-circle{
   	display: block;
   }
